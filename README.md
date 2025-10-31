@@ -9,7 +9,6 @@ Blood Connex is a web/mobile application designed to connect blood donors, recip
 - [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Environment Variables](#environment-variables)
   - [Run](#run)
@@ -45,24 +44,14 @@ Blood Connex is a web/mobile application designed to connect blood donors, recip
 - Screenshot 3: Request result
 - <img width="1061" height="373" alt="image" src="https://github.com/user-attachments/assets/d2ae60d5-dfb6-4b9e-9038-2bda1f5c8bba" />
 
-
 ## Tech Stack
-- Frontend: React / React Native / Vue / Flutter (choose what you used)
-- Backend: Node.js + Express / Django / Flask / Ruby on Rails (choose what you used)
-- Database: PostgreSQL / MongoDB (choose what you used)
-- Real-time: Socket.IO / Firebase Realtime Database / Pusher
-- Notifications: Twilio (SMS), SendGrid (Email), Firebase Cloud Messaging (push)
-- Hosting: Vercel / Netlify (frontend), Heroku / AWS / DigitalOcean (backend)
-
-(Replace with exact technologies and versions used in your repository.)
+- Frontend: HTML,CSS,JS
+- Backend:Spring boot
+- Database: H2 Database
+- Notifications: Gmail
+- Hosting: Google Crome
 
 ## Getting Started
-
-### Prerequisites
-- Node.js >= 14 (if using Node)
-- npm or yarn
-- PostgreSQL or MongoDB running (if using a SQL/NoSQL DB)
-- An account/API keys for Twilio, SendGrid, Firebase if you want notifications
 
 ### Install
 1. Clone the repo
@@ -95,7 +84,7 @@ Start frontend:
   cd frontend
   npm start
 
-Open http://localhost:3000 (or configured port) in your browser.
+Open http://localhost:3000  in your browser.
 
 ## Usage
 - Register as a donor, recipient, or blood bank.
@@ -113,7 +102,7 @@ Examples (adjust to the actual routes in your repo):
 - PATCH /api/requests/:id/accept — Accept a request
 - GET /api/admin/statistics — Admin analytics
 
-Document endpoints in more detail (request/response examples and authentication requirements) in an API.md or in-line Swagger/OpenAPI file.
+
 
 ## Database
 - Schema highlights:
@@ -121,18 +110,18 @@ Document endpoints in more detail (request/response examples and authentication 
   - requests (id, requester_id, blood_group, units, location, status, created_at)
   - notifications (id, user_id, type, data, read)
   - blood_banks (id, name, address, contact, verified)
-- Migrations: Use your ORM's migration tooling (e.g., Sequelize, TypeORM, Alembic, Django Migrations).
+
 
 ## Testing
 - Unit tests: npm run test
-- Integration tests: describe how to run them
+- APTI test:Postman
 - Use jest / mocha / pytest / RSpec based on your stack
 
 ## Deploying
 - Backend: Deploy to Heroku / AWS Elastic Beanstalk / DigitalOcean App Platform
 - Frontend: Deploy to Vercel / Netlify
 - Set environment variables in the hosting provider
-- Use a managed database (Amazon RDS, Heroku Postgres, MongoDB Atlas)
+- Use a managed database (H2 database)
 
 CI/CD:
 - Add GitHub Actions workflow for tests and deployment
@@ -149,7 +138,7 @@ Thank you for wanting to contribute! Steps:
 Please follow the code style and add tests for new features. Use issue templates and link your PR to an issue when applicable.
 
 ## Roadmap
-- OAuth social login (Google / Facebook)
+- OAuth social login (Google )
 - Multi-language support
 - Donor reward/recognition system
 - Improved matching with blood compatibility and travel radius
@@ -168,6 +157,6 @@ LICENSE file included? If not, add one:
 
 ## Contact
 Maintainer: Meghana04122004
-Email: your-email@example.com (replace with your preferred contact)
+Email: meghanalingamallu2004@gmail.com (replace with your preferred contact)
 
 Thank you for using Blood Connex — together we can help save lives.
