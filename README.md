@@ -35,10 +35,16 @@ Blood Connex is a web/mobile application designed to connect blood donors, recip
 - Role-based access control (donor, recipient, blood bank, admin)
 
 ## Screenshots
-(Add screenshots of your app here)
-- Screenshot 1: Landing page / Dashboard
-- Screenshot 2: Create request flow
-- Screenshot 3: Donor profile and search results
+
+- Screenshot 1: Admin Dashboard
+- <img width="894" height="516" alt="image" src="https://github.com/user-attachments/assets/8c656af0-69b5-4bed-b63d-62bff6f7e3f6" />
+
+- Screenshot 2:  Donor profile and search results
+- <img width="946" height="521" alt="image" src="https://github.com/user-attachments/assets/5c3badfd-73de-4dfa-bbe5-d1cfe9bba08c" />
+
+- Screenshot 3: Request result
+- <img width="1061" height="373" alt="image" src="https://github.com/user-attachments/assets/d2ae60d5-dfb6-4b9e-9038-2bda1f5c8bba" />
+
 
 ## Tech Stack
 - Frontend: React / React Native / Vue / Flutter (choose what you used)
